@@ -1,0 +1,219 @@
+[
+  {
+    "source": "velora/velora-01-hero.png",
+    "sha256": "737ce5e9438bef379ea902ccd53294bb5ac5f9e46003ace4a21ad8c3c6f5c197",
+    "bytes": 2313489,
+    "derivatives": [
+      {
+        "file": "assets/images/velora-01-hero-768.webp",
+        "bytes": 30062,
+        "size": [
+          768,
+          432
+        ]
+      },
+      {
+        "file": "assets/images/velora-01-hero-1672.webp",
+        "bytes": 132780,
+        "size": [
+          1672,
+          941
+        ]
+      },
+      {
+        "file": "assets/images/velora-01-hero-1672.jpg",
+        "bytes": 227982,
+        "size": [
+          1672,
+          941
+        ]
+      }
+    ]
+  },
+  {
+    "source": "velora/velora-02-living-kitchen-overview.png",
+    "sha256": "c3836bc7f7828706fde62483b5660632c7561eea5c639209f937fa1b522404ff",
+    "bytes": 2481767,
+    "derivatives": [
+      {
+        "file": "assets/images/velora-02-living-kitchen-overview-648.webp",
+        "bytes": 33576,
+        "size": [
+          648,
+          432
+        ]
+      },
+      {
+        "file": "assets/images/velora-02-living-kitchen-overview-1536.webp",
+        "bytes": 161082,
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "file": "assets/images/velora-02-living-kitchen-overview-1536.jpg",
+        "bytes": 252761,
+        "size": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "source": "velora/velora-03-living-kitchen-reverse.png",
+    "sha256": "49f575c372f8d4b6145eb5a7044c9e6b78bbfa39c8a887534f11644f1894784e",
+    "bytes": 2385267,
+    "derivatives": [
+      {
+        "file": "assets/images/velora-03-living-kitchen-reverse-648.webp",
+        "bytes": 38482,
+        "size": [
+          648,
+          432
+        ]
+      },
+      {
+        "file": "assets/images/velora-03-living-kitchen-reverse-1536.webp",
+        "bytes": 154416,
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "file": "assets/images/velora-03-living-kitchen-reverse-1536.jpg",
+        "bytes": 254470,
+        "size": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "source": "velora/velora-04-compact-apartment-overview.png",
+    "sha256": "6fddc902f388413971865b1d1a66794a07adb5d0a95d7a8d18d7c7321a19e99a",
+    "bytes": 2414762,
+    "derivatives": [
+      {
+        "file": "assets/images/velora-04-compact-apartment-overview-648.webp",
+        "bytes": 24680,
+        "size": [
+          648,
+          432
+        ]
+      },
+      {
+        "file": "assets/images/velora-04-compact-apartment-overview-1536.webp",
+        "bytes": 134588,
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "file": "assets/images/velora-04-compact-apartment-overview-1536.jpg",
+        "bytes": 225242,
+        "size": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "source": "velora/velora-05-compact-apartment-storage.png",
+    "sha256": "ddbc8f5d5a952530006cca33894172408b208d24ed354cd02c8d850811bdbb81",
+    "bytes": 2289641,
+    "derivatives": [
+      {
+        "file": "assets/images/velora-05-compact-apartment-storage-648.webp",
+        "bytes": 22502,
+        "size": [
+          648,
+          432
+        ]
+      },
+      {
+        "file": "assets/images/velora-05-compact-apartment-storage-1536.webp",
+        "bytes": 116544,
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "file": "assets/images/velora-05-compact-apartment-storage-1536.jpg",
+        "bytes": 204679,
+        "size": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "source": "velora/velora-06-bedroom-workspace-overview.png",
+    "sha256": "180a479f12000233b515161c3e3594c7f28363f33e0f7f2cf2dbfcd6ba9bcaef",
+    "bytes": 2233678,
+    "derivatives": [
+      {
+        "file": "assets/images/velora-06-bedroom-workspace-overview-648.webp",
+        "bytes": 26816,
+        "size": [
+          648,
+          432
+        ]
+      },
+      {
+        "file": "assets/images/velora-06-bedroom-workspace-overview-1536.webp",
+        "bytes": 121714,
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "file": "assets/images/velora-06-bedroom-workspace-overview-1536.jpg",
+        "bytes": 228734,
+        "size": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "source": "velora/velora-07-bedroom-workspace-reverse.png",
+    "sha256": "8c6e68d5a86bc3c805393ce6ae9be409290e0c9ec28acdff0fb6e3859057c8da",
+    "bytes": 2062829,
+    "derivatives": [
+      {
+        "file": "assets/images/velora-07-bedroom-workspace-reverse-648.webp",
+        "bytes": 27162,
+        "size": [
+          648,
+          432
+        ]
+      },
+      {
+        "file": "assets/images/velora-07-bedroom-workspace-reverse-1536.webp",
+        "bytes": 100828,
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "file": "assets/images/velora-07-bedroom-workspace-reverse-1536.jpg",
+        "bytes": 210274,
+        "size": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  }
+]

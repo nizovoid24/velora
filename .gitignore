@@ -1,0 +1,9 @@
+/evidence/
+/VELORA_*_REPORT.md
+/scripts/prepare-assets.py
+node_modules/
+.DS_Store
+.env
+.env.*
+*.pem
+*.key

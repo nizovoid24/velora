@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VELORA — концептуальная студия дизайна интерьеров квартир. Три интерьера, подход к планировке и демонстрация обращения.">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; object-src 'none'">
+  <title>VELORA — дизайн интерьеров квартир</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/pt-serif-regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="assets/fonts/pt-sans-regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=1.3">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <header class="site-header container">
+    <a class="brand" href="#main" aria-label="VELORA — к началу страницы">
+      <span class="brand-name">VELORA</span>
+      <span class="brand-caption">Студия дизайна интерьеров</span>
+    </a>
+    <nav aria-label="Основная навигация">
+      <a href="#projects">Проекты</a>
+      <a href="#services">Услуги</a>
+      <a href="#process">Этапы работы</a>
+      <a href="#about">О студии</a>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy container">
+        <h1 id="hero-title">Дизайн <span class="hyphenated-word">ин&shy;терь&shy;еров</span> квартир</h1>
+        <p>Продумываем, как расставить мебель, где хранить вещи и как соединить в одной квартире разные привычки</p>
+        <div class="hero-actions">
+          <a class="button" href="#contact">Обсудить проект <span aria-hidden="true">⟶</span></a>
+          <a class="text-link" href="#projects">Смотреть проекты</a>
+        </div>
+      </div>
+      <picture class="hero-picture">
+        <source type="image/webp" srcset="assets/images/velora-01-hero-768.webp 768w, assets/images/velora-01-hero-1672.webp 1672w" sizes="100vw">
+        <img src="assets/images/velora-01-hero-1672.jpg" width="1672" height="941" fetchpriority="high" alt="Светлый диван перед стеной с ореховыми панелями и открытой полкой">
+      </picture>
+    </section>
+
+    <section class="projects container" aria-labelledby="projects">
+      <div class="section-intro">
+        <h2 id="projects" tabindex="-1">Интерьеры квартир</h2>
+        <p>Три концепции о том, как устроить общую комнату, собрать хранение вдоль стены или найти место для работы в спальне</p>
+      </div>
+      <div class="project-controls" role="group" aria-label="Проект">
+        <button type="button" data-project="0" aria-pressed="true" disabled><span>Кухня и гостиная</span></button>
+        <button type="button" data-project="1" aria-pressed="false" disabled><span>Компактная квартира</span></button>
+        <button type="button" data-project="2" aria-pressed="false" disabled><span>Спальня и рабочая зона</span></button>
+      </div>
+      <div class="gallery">
+        <div class="gallery-visual">
+          <picture class="gallery-frame">
+            <source id="gallery-source" type="image/webp" srcset="assets/images/velora-02-living-kitchen-overview-648.webp 648w, assets/images/velora-02-living-kitchen-overview-1536.webp 1536w" sizes="(max-width: 600px) calc(100vw - 36px), (max-width: 1000px) calc(100vw - 64px), 60vw">
+            <img id="gallery-image" src="assets/images/velora-02-living-kitchen-overview-1536.jpg" width="1536" height="1024" loading="lazy" decoding="async" alt="От дивана видны круглый обеденный стол и кухонная стойка с двумя табуретами">
+          </picture>
+          <div class="gallery-footer">
+            <p id="gallery-count">Ракурс 1 из 2</p>
+            <div class="angle-controls" role="group" aria-label="Ракурс">
+              <button type="button" data-angle="0" aria-pressed="true" disabled><span>Ракурс 1</span></button>
+              <button type="button" data-angle="1" aria-pressed="false" disabled><span>Ракурс 2</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-description">
+          <h3 id="project-title">Кухня и гостиная</h3>
+          <p id="project-description">Круглый стол связывает кухню и диванную зону. За ним можно собраться вместе, а у кухонной стойки — ненадолго присесть, пока готовится ужин</p>
+        </div>
+      </div>
+      <p class="visually-hidden" id="gallery-status" role="status" aria-atomic="true"></p>
+      <noscript><p class="notice">Для выбора проектов и ракурсов включите JavaScript. Сейчас показан первый ракурс кухни и гостиной.</p></noscript>
+    </section>
+
+    <section class="text-section container" aria-labelledby="services">
+      <h2 id="services" tabindex="-1">Чем мы можем помочь</h2>
+      <dl class="services">
+        <div><dt>Консультация</dt><dd>Разберём конкретный вопрос о квартире. Например, куда переместить обеденный стол или поместится ли рабочее место у окна</dd></div>
+        <div><dt>Дизайн-проект</dt><dd>Свяжем планировку, мебель, свет и отделку в одно решение. Подготовим чертежи, по которым можно обсудить работы со строителями</dd></div>
+        <div><dt>Сопровождение ремонта</dt><dd>Когда ремонт уже идёт, поможем сверить образцы с проектом и подобрать замену, если выбранного материала больше нет</dd></div>
+      </dl>
+    </section>
+
+    <section class="text-section container" aria-labelledby="process">
+      <h2 id="process" tabindex="-1">Как строится работа над проектом</h2>
+      <ol class="process">
+        <li><h3>Зна&shy;ком&shy;ство</h3><p>Обсуждаем вашу квартиру, привычки и планы. Собираем исходные размеры и список того, что хочется изменить</p></li>
+        <li><h3>Планировка</h3><p>Расставляем мебель на плане. Вместе проверяем проходы, хранение и расположение рабочих мест</p></li>
+        <li><h3>Образ интерьера</h3><p>Подбираем материалы, оттенки и освещение. Смотрим, как они сочетаются между собой в каждой комнате</p></li>
+        <li><h3>Передача проекта</h3><p>Собираем согласованные решения и чертежи в комплект и разбираем его вместе с вами</p></li>
+      </ol>
+    </section>
+
+    <section class="text-section about container" aria-labelledby="about">
+      <h2 id="about" tabindex="-1">О студии</h2>
+      <p>В VELORA планировка начинается с простых вопросов. Где поставить сумки, когда приходишь домой? Можно ли включить лампу за рабочим столом, пока рядом спят? Ответы задают расстановку мебели. Затем мы выбираем материалы с учётом того, к чему вы прикасаетесь каждый день</p>
+    </section>
+
+    <section class="text-section contact container" aria-labelledby="contact">
+      <h2 id="contact" tabindex="-1">Обсудить проект</h2>
+      <p id="demo-note">Это демонстрационная форма. Используйте вымышленную почту и опишите задачу на примере. Данные никуда не отправляются</p>
+      <!-- Intentionally no form owner or name attributes: no native submission, even without JS. -->
+      <div class="demo-form" role="form" aria-labelledby="contact" aria-describedby="demo-note">
+        <div class="field">
+          <label for="email">Электронная почта</label>
+          <input id="email" type="email" inputmode="email" autocomplete="off" spellcheck="false" autocapitalize="none" required aria-describedby="email-hint email-error">
+          <p class="field-hint" id="email-hint">Например, dom@example.com</p>
+          <p class="field-error" id="email-error" hidden></p>
+        </div>
+        <div class="field">
+          <label for="task">Что вы хотите изменить в квартире?</label>
+          <textarea id="task" rows="3" autocomplete="off" spellcheck="false" required aria-describedby="task-hint task-error"></textarea>
+          <p class="field-hint" id="task-hint">Например, разместить рабочий стол в спальне</p>
+          <p class="field-error" id="task-error" hidden></p>
+        </div>
+        <button class="button" id="check-form" type="button" disabled>Проверить форму <span aria-hidden="true">⟶</span></button>
+        <p class="form-status" id="form-status" role="status" aria-atomic="true"></p>
+      </div>
+      <noscript><p class="notice">Для локальной проверки включите JavaScript. Данные никуда не отправляются.</p></noscript>
+    </section>
+  </main>
+  <footer class="site-footer container">VELORA — концептуальный проект для портфолио</footer>
+</body>
+</html>
